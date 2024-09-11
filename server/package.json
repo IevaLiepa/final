@@ -1,8 +1,8 @@
 {
   "name": "server",
   "version": "1.0.0",
-   "description": "",
-    "type": "module",
+  "description": "",
+  "type": "module",
   "main": "index.js",
   "scripts": {
     "dev": "node --watch ./index.js",
@@ -11,8 +11,8 @@
   "keywords": [],
   "author": "",
   "license": "ISC",
-
   "dependencies": {
-    "express": "^4.19.2"
+    "express": "^4.19.2",
+    "mysql2": "^3.11.2"
   }
 }
